@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolderLibrary", "EquationSolderLibrary\EquationSolderLibrary.csproj", "{E888138B-B655-4A9B-A7F7-B9A8C8E27196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolderUnitTests", "EquationSolderUnitTests\EquationSolderUnitTests.csproj", "{743B3067-797C-4E23-AB86-7F733B94B949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolderConsoleApplication", "EquationSolderConsoleApplication\EquationSolderConsoleApplication.csproj", "{47321769-7CEF-4D23-85FC-A4763BF54DD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E888138B-B655-4A9B-A7F7-B9A8C8E27196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E888138B-B655-4A9B-A7F7-B9A8C8E27196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E888138B-B655-4A9B-A7F7-B9A8C8E27196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{743B3067-797C-4E23-AB86-7F733B94B949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{743B3067-797C-4E23-AB86-7F733B94B949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{743B3067-797C-4E23-AB86-7F733B94B949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{743B3067-797C-4E23-AB86-7F733B94B949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47321769-7CEF-4D23-85FC-A4763BF54DD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47321769-7CEF-4D23-85FC-A4763BF54DD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47321769-7CEF-4D23-85FC-A4763BF54DD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47321769-7CEF-4D23-85FC-A4763BF54DD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
