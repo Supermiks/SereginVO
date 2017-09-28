@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EquationSolderLibrary
 {
-    public class Class1
+    public class EquationSolder
     {
+        public string InputValidation()
+        {
+            return "";
+        }
     }
 }
