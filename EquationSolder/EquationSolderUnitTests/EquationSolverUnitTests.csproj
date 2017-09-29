@@ -53,6 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CalculateDiscriminant.cs" />
+    <Compile Include="GetSolutionsTest.cs" />
     <Compile Include="InputValidationTests.cs" />
     <Compile Include="ParseEquationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
