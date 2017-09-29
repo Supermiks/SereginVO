@@ -68,5 +68,25 @@ namespace EquationSolverLibrary
 
             return typeOfEquation;
         }
+
+        public static double[] GetSolutions(int[] coefficients, int discriminant, int typeOfEquation)
+        {
+            int a = coefficients[0];
+            int b = coefficients[1];
+            int c = coefficients[2];
+            double[] solutions = new double[2];
+
+            if (typeOfEquation == 0)
+            {
+                solutions[0] = -b / (2*a);
+                solutions[1] = solutions[0];
+
+                return solutions;
+            }
+
+            solutions[0] = (-b + Math.Sqrt(discriminant)) / (2 * a);
+            solutions[1] = (-b - Math.Sqrt(discriminant)) / (2 * a);
+            return solutions;
+        }
     }
 }
