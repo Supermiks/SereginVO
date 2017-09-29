@@ -10,7 +10,7 @@ namespace EquationSolderUnitTests
         [TestMethod]
         public void TestMethod1()
         {
-            var equation = new EquationSolder(); 
+
         }
     }
 }
