@@ -15,6 +15,11 @@ namespace EquationSolverConsoleApplication
             while (true)
             {
                 int[] coefficients = new int[3];
+                double[] solutions = new double[2];
+                int discriminant;
+                int typeOfEquation;
+
+
                 string input = GetEquation();
 
                 while (!IsInputValid(input))
@@ -24,9 +29,17 @@ namespace EquationSolverConsoleApplication
                 }
 
                 coefficients = ParseEquation(input);
-                for (int i = 0; i <3; i++)
+                discriminant = CalculateDiscriminant(coefficients);
+                typeOfEquation = ValidationDiscriminant(discriminant);
+
+                if (typeOfEquation == -1)
                 {
-                    Console.WriteLine(coefficients[i]);
+                    Console.WriteLine("Нет решений");
+                }
+                else
+                {
+                    solutions = GetSolutions(coefficients, discriminant, typeOfEquation);
+                    PrintSolutions(solutions);
                 }
             }
         }
@@ -35,6 +48,16 @@ namespace EquationSolverConsoleApplication
         {
             Console.WriteLine("Введите уравнение вида ax^2 + bx + c = 0");
             return Console.ReadLine();
+        }
+
+        static void PrintSolutions(double[] solutions)
+        {
+            Console.WriteLine("Корни уравнения");
+
+            foreach (var solution in solutions)
+            {
+                Console.WriteLine(solution);
+            }
         }
     }
 }
