@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EquationSolderLibrary;
-using static EquationSolderLibrary.EquationSolder;
+using EquationSolverLibrary;
+using static EquationSolverLibrary.EquationSolver;
 
 namespace EquationSolderUnitTests
 {

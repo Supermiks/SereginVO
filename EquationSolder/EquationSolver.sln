@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolderLibrary", "EquationSolderLibrary\EquationSolderLibrary.csproj", "{E888138B-B655-4A9B-A7F7-B9A8C8E27196}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolverLibrary", "EquationSolderLibrary\EquationSolverLibrary.csproj", "{E888138B-B655-4A9B-A7F7-B9A8C8E27196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolderUnitTests", "EquationSolderUnitTests\EquationSolderUnitTests.csproj", "{743B3067-797C-4E23-AB86-7F733B94B949}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolverUnitTests", "EquationSolderUnitTests\EquationSolverUnitTests.csproj", "{743B3067-797C-4E23-AB86-7F733B94B949}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolderConsoleApplication", "EquationSolderConsoleApplication\EquationSolderConsoleApplication.csproj", "{47321769-7CEF-4D23-85FC-A4763BF54DD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolverConsoleApplication", "EquationSolderConsoleApplication\EquationSolverConsoleApplication.csproj", "{47321769-7CEF-4D23-85FC-A4763BF54DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

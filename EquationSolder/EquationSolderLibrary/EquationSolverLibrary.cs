@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
-namespace EquationSolderLibrary
+namespace EquationSolverLibrary
 {
-    public static class EquationSolder
+    public static class EquationSolver
     {
         public static bool IsInputValid(string input)
         {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EquationSolderLibrary;
-using static EquationSolderLibrary.EquationSolder;
+using EquationSolverLibrary;
+using static EquationSolverLibrary.EquationSolver;
 
-namespace EquationSolderConsoleApplication
+namespace EquationSolverConsoleApplication
 {
-    class EquationSolderConsoleApplication
+    class EquationSolverConsoleApplication
     {
         static void Main(string[] args)
         {
