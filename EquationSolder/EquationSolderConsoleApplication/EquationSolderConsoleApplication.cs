@@ -18,7 +18,7 @@ namespace EquationSolderConsoleApplication
 
                 while (!IsInputValid(input))
                 {
-                    Console.WriteLine("Пошёл нахуй");
+                    Console.WriteLine("Неверный ввод, попробуйте ещё раз");
                     input = GetEquation();
                 }
             }
