@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EquationSolderLibrary\EquationSolderLibrary.csproj">
+    <ProjectReference Include="..\EquationSolderLibrary\EquationSolverLibrary.csproj">
       <Project>{e888138b-b655-4a9b-a7f7-b9a8c8e27196}</Project>
-      <Name>EquationSolderLibrary</Name>
+      <Name>EquationSolverLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
