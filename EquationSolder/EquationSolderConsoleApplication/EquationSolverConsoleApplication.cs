@@ -14,12 +14,19 @@ namespace EquationSolverConsoleApplication
         {
             while (true)
             {
+                int[] coefficients = new int[3];
                 string input = GetEquation();
 
                 while (!IsInputValid(input))
                 {
                     Console.WriteLine("Неверный ввод, попробуйте ещё раз");
                     input = GetEquation();
+                }
+
+                coefficients = ParseEquation(input);
+                for (int i = 0; i <3; i++)
+                {
+                    Console.WriteLine(coefficients[i]);
                 }
             }
         }
