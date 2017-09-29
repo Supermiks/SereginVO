@@ -57,7 +57,7 @@
     <Compile Include="InputValidationTests.cs" />
     <Compile Include="ParseEquationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ValidationDiscriminant.cs" />
+    <Compile Include="ValidationDiscriminantTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EquationSolderLibrary\EquationSolverLibrary.csproj">
