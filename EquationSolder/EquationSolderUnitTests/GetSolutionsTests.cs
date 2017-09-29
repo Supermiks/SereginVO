@@ -7,7 +7,7 @@ using static EquationSolverLibrary.EquationSolver;
 namespace EquationSolderUnitTests
 {
     [TestClass]
-    public class GetSolutionsTest
+    public class GetSolutionsTests
     {
         [TestMethod]
         public void GetSolutions_EquationWithSpecialCoefficients_expectedSolutionsReturned()

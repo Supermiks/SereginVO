@@ -6,7 +6,7 @@ using static EquationSolverLibrary.EquationSolver;
 namespace EquationSolderUnitTests
 {
     [TestClass]
-    public class CalculateDiscriminant
+    public class CalculateDiscriminantTests
     {
         [TestMethod]
         public void CalculateDiscriminant_EquationWithNegativeDiscriminant_expectedDiscriminantReturned()
