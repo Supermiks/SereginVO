@@ -36,5 +36,37 @@ namespace EquationSolverLibrary
 
             return coefficients;
         }
+
+        public static int CalculateDiscriminant(int[] coefficients)
+        {
+            int a = coefficients[0];
+            int b = coefficients[1];
+            int c = coefficients[2];
+
+            int discriminant = b * b - 4 * a * c;
+            return discriminant;
+        }
+
+        public static int ValidationDiscriminant(int discriminant)
+        {
+            int typeOfEquation;
+
+            if (discriminant < 0)
+            {
+                typeOfEquation = -1;
+            }
+
+            else if (discriminant == 0)
+            {
+                typeOfEquation = 0;
+            }
+
+            else
+            {
+                typeOfEquation = 1;
+            }
+
+            return typeOfEquation;
+        }
     }
 }
